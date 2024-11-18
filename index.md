@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permalink: /
+permalink: the-blarg/
 ---
 
 {% include navigation.html %}

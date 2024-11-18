@@ -3,5 +3,3 @@ plugins:
 - jekyll-remote-theme
 title: The Blarg
 description: Thinking about writing things here.
-
-baseurl: "/"
