@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About
+title: Home
+permalink: /
 ---
 
 {% include navigation.html %}
