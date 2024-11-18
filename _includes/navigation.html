@@ -1,10 +1,20 @@
+<style>
+  .nav-link {
+  display: inline-block;
+  border: 1px solid aqua;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  }
+</style>
+
 <nav>
-    <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>
-      Home
-    </a>
-    <a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>
-      About
-    </a>
-  </nav>
+  <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %} class="nav-link">
+    Home
+  </a>
+  <a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %} class="nav-link">
+    About
+  </a>
+</nav>
 
 <!-- REFERENCE https://jekyllrb.com/docs/step-by-step/05-includes/#current-page-highlighting -->
