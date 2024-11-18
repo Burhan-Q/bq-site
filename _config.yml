@@ -4,9 +4,4 @@ plugins:
 title: The Blarg
 description: Thinking about writing things here.
 
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      permalink: /
+baseurl: "/"
