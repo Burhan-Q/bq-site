@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permalink: :path/
+permalink: /
 ---
 
 {% include navigation.html %}
