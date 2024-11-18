@@ -1,8 +1,9 @@
 ---
 layout: default
 title: About
-permalink: /about/
 ---
+
+{% include navigation.html %}
 
 # About
 
