@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-permalink: the-blarg/about/
+permalink: /about/
 ---
 
 # About
